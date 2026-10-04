@@ -29,7 +29,7 @@ const x = (n: string, alt: string, caption: string): Img => ({ src: `/projects/x
 export const projects: Project[] = [
   {
     slug: "ids",
-    category: "AI × Cybersecurity",
+    category: "AIML × Cybersecurity",
     title: "Intrusion Detection & Automated Blocking System",
     summary:
       "An ML-powered network security system combining traffic classification, attack-specific detection logic, real-time monitoring, attack logging and automated malicious-IP blocking.",
@@ -165,21 +165,6 @@ featured: true,
       { title: "Admin Dashboard", bullets: ["User accounts","Product listings","Transaction states","Inventory verification"] },
       { title: "ML-assisted Image Validation", body: "An asynchronous pipeline detects and flags defective product conditions before catalogue sync, reducing manual review overhead." },
       { title: "Reliability", body: "Structured exception handling and backend log monitoring surface pipeline failures early, supporting faster debugging during QA and production runs." },
-      { title: "Screenshots", gallery: true },
-    ],
-  },
-  {
-    slug: "android",
-    category: "Android · Personal project",
-    title: "Blinkit Clone — Kotlin / Jetpack Compose",
-    summary: "A grocery-delivery Android app built as a personal project to practise modern Android architecture with Jetpack Compose.",
-    tech: ["Kotlin","Jetpack Compose","Material 3","MVVM","Hilt","Coroutines","StateFlow","Compose Navigation","Coil"],
-    metrics: [{ value: "~25", label: "Products in mock repository" }],
-    images: [],
-    sections: [
-      { title: "Overview", body: "A personal project, not professional Android work. It uses a mock repository of about 25 grocery products." },
-      { title: "Architecture", body: "MVVM with Hilt for dependency injection, Kotlin Coroutines and StateFlow for state, Compose Navigation, and Coil for image loading." },
-      { title: "Features", bullets: ["Home, header, categories and carousel","Product listing with filtering","Product details, cart and checkout","Dark mode and responsive product grids","Shimmer and empty states","Animated cart interactions"] },
       { title: "Screenshots", gallery: true },
     ],
   },
