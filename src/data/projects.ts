@@ -138,7 +138,28 @@ featured: true,
     title: "ReWear — Clothing Exchange Platform",
     summary: "A full-stack clothing exchange platform with an admin dashboard and an asynchronous ML pipeline that validates product condition before items reach the catalogue.",
     tech: ["Laravel","PHP","Admin dashboard","Async ML pipeline","Backend log monitoring"],
-    metrics: [], images: [],
+    metrics: [], images: [
+      {
+        src: "/projects/rewear/landing.png",
+        alt: "ReWear clothing exchange platform landing page",
+        caption: "Landing page of the ReWear clothing exchange platform.",
+      },
+      {
+        src: "/projects/rewear/items.png",
+        alt: "ReWear clothing items listing",
+        caption: "Clothing item listing interface for browsing available products.",
+      },
+      {
+        src: "/projects/rewear/profile.png",
+        alt: "ReWear user profile page",
+        caption: "User profile interface showing account and platform activity.",
+      },
+      {
+        src: "/projects/rewear/new_item.png",
+        alt: "ReWear new item upload interface",
+        caption: "Interface for adding a new clothing item to the platform.",
+      },
+    ],
     sections: [
       { title: "Overview", body: "ReWear lets people exchange clothing. The backend is built with Laravel / PHP." },
       { title: "Admin Dashboard", bullets: ["User accounts","Product listings","Transaction states","Inventory verification"] },
