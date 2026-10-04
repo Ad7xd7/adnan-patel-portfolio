@@ -41,7 +41,45 @@ export const projects: Project[] = [
       { value: "21", label: "Final ML features" },
       { value: "3", label: "Implemented attack categories" },
     ],
-    flow: idsFlow, images: [], featured: true,
+    flow: idsFlow,
+images: [
+  {
+    src: "/projects/ids/menu.png",
+    alt: "Intrusion detection system monitoring dashboard menu",
+    caption: "Main monitoring interface for accessing IDS features and system views.",
+  },
+  {
+    src: "/projects/ids/live_normal_health.png",
+    alt: "Live normal traffic health monitoring dashboard",
+    caption: "Live monitoring view showing normal network traffic health and system status.",
+  },
+  {
+    src: "/projects/ids/live_attack_health.png",
+    alt: "Live attack health monitoring dashboard",
+    caption: "Real-time attack monitoring view showing detected malicious traffic and system health.",
+  },
+  {
+    src: "/projects/ids/top_ip_details.png",
+    alt: "Top IP details and network traffic monitoring",
+    caption: "IP-level traffic details used to investigate network activity and suspicious sources.",
+  },
+  {
+    src: "/projects/ids/recent_logs.png",
+    alt: "Recent attack and security logs",
+    caption: "Recent detection logs providing an audit trail of observed security events.",
+  },
+  {
+    src: "/projects/ids/malware_detection.png",
+    alt: "Malware detection module",
+    caption: "Malware detection interface for analysing suspicious files alongside network security monitoring.",
+  },
+  {
+    src: "/projects/ids/firewall_blocking_ip.png",
+    alt: "Firewall malicious IP blocking interface",
+    caption: "Automated malicious-IP blocking simulation triggered after attack detection.",
+  },
+],
+featured: true,
     sections: [
       { title: "Problem", body: "Attacks on a network need to be recognised and answered while traffic is still flowing. This project goes beyond classifying records offline: it detects an attack, records it and responds by blocking the source." },
       { title: "Implemented Functionality", body: "A working detection-and-response system, not a notebook experiment.",
